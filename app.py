@@ -2,8 +2,7 @@ from flask import Flask
 from flask import Flask, request
 import os
 import psycopg2
-from dotenv import load_dotenv
-load_dotenv()
+
 
 app = Flask(__name__)
 
